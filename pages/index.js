@@ -1,3 +1,4 @@
+
 import EmptyState from '@/components/EmptyState';
 import Logo from '@/components/icons/Logo';
 import { useAuth } from '@/lib/auth';
@@ -16,4 +17,5 @@ export default function Dashboard() {
   }
 
   return <EmptyState />;
+
 }
